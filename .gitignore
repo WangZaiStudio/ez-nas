@@ -1,0 +1,16 @@
+# macOS 系统生成的隐藏文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# macOS 资源库文件
+Icon?
+._Icon?
+
+# macOS 保存的文件属性
+.metadata_never_index
+.AppleDesktop
