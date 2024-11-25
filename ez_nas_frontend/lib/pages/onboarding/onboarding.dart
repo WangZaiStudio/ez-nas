@@ -1,3 +1,4 @@
+import 'package:ez_nas_frontend/pages/onboarding/register.dart';
 import 'package:flutter/material.dart';
 import 'package:ez_nas_frontend/preset/colors.dart';
 import 'package:ez_nas_frontend/pages/onboarding/login.dart';
@@ -57,7 +58,7 @@ class ButtonSection extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () { Navigator.push(context, MaterialPageRoute(builder: (context) => const RegisterScreen())); },
             style: ElevatedButton.styleFrom(
               minimumSize: const Size(double.infinity, 48),
               backgroundColor: AppColor.primaryBlueberry,

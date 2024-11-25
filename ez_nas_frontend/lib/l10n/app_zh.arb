@@ -13,13 +13,25 @@
   "loginHeaderDesc": "登录以访问您的云端文件",
   "loginServerAddrTitle": "服务器地址",
   "loginServerAddrDesc": "输入你的服务器地址",
-  "loginUserNameTitle": "用户名",
-  "loginUserNameDesc": "请输入你注册时所用的用户名",
+  "loginUserNameTitle": "邮箱",
+  "loginUserNameDesc": "请输入你注册时所用的邮箱",
   "loginPasswordTitle": "密码",
   "loginPasswordDesc": "请输入密码",
   "loginForgetDesc": "忘记密码了？",
   "loginForgetButton": "重置密码",
   "loginRegDesc": "没有账号？",
   "loginRegButton": "注册新账号",
-  "loginButton": "登录"
+  "loginButton": "登录",
+
+  "registerHeaderTitle": "加入服务器",
+  "registerHeaderDesc": "通过注册加入到特定的服务器，与伙伴们共享资源吧！",
+  "registerServerAddrTitle": "服务器地址",
+  "registerServerAddrDesc": "要注册的服务器地址",
+  "registerUserNameTitle": "邮箱",
+  "registerUserNameDesc": "请输入账户邮箱",
+  "registerPasswordTitle": "密码",
+  "registerPasswordDesc": "请输入密码",
+  "registerAccountExistDesc": "已经有账号了？",
+  "registerAccountExistButton": "前往登录",
+  "registerButton": "注册"
 }

@@ -127,13 +127,13 @@ abstract class AppLocalizations {
   /// No description provided for @loginUserNameTitle.
   ///
   /// In zh, this message translates to:
-  /// **'用户名'**
+  /// **'邮箱'**
   String get loginUserNameTitle;
 
   /// No description provided for @loginUserNameDesc.
   ///
   /// In zh, this message translates to:
-  /// **'请输入你注册时所用的用户名'**
+  /// **'请输入你注册时所用的邮箱'**
   String get loginUserNameDesc;
 
   /// No description provided for @loginPasswordTitle.
@@ -177,6 +177,72 @@ abstract class AppLocalizations {
   /// In zh, this message translates to:
   /// **'登录'**
   String get loginButton;
+
+  /// No description provided for @registerHeaderTitle.
+  ///
+  /// In zh, this message translates to:
+  /// **'加入服务器'**
+  String get registerHeaderTitle;
+
+  /// No description provided for @registerHeaderDesc.
+  ///
+  /// In zh, this message translates to:
+  /// **'通过注册加入到特定的服务器，与伙伴们共享资源吧！'**
+  String get registerHeaderDesc;
+
+  /// No description provided for @registerServerAddrTitle.
+  ///
+  /// In zh, this message translates to:
+  /// **'服务器地址'**
+  String get registerServerAddrTitle;
+
+  /// No description provided for @registerServerAddrDesc.
+  ///
+  /// In zh, this message translates to:
+  /// **'要注册的服务器地址'**
+  String get registerServerAddrDesc;
+
+  /// No description provided for @registerUserNameTitle.
+  ///
+  /// In zh, this message translates to:
+  /// **'邮箱'**
+  String get registerUserNameTitle;
+
+  /// No description provided for @registerUserNameDesc.
+  ///
+  /// In zh, this message translates to:
+  /// **'请输入账户邮箱'**
+  String get registerUserNameDesc;
+
+  /// No description provided for @registerPasswordTitle.
+  ///
+  /// In zh, this message translates to:
+  /// **'密码'**
+  String get registerPasswordTitle;
+
+  /// No description provided for @registerPasswordDesc.
+  ///
+  /// In zh, this message translates to:
+  /// **'请输入密码'**
+  String get registerPasswordDesc;
+
+  /// No description provided for @registerAccountExistDesc.
+  ///
+  /// In zh, this message translates to:
+  /// **'已经有账号了？'**
+  String get registerAccountExistDesc;
+
+  /// No description provided for @registerAccountExistButton.
+  ///
+  /// In zh, this message translates to:
+  /// **'前往登录'**
+  String get registerAccountExistButton;
+
+  /// No description provided for @registerButton.
+  ///
+  /// In zh, this message translates to:
+  /// **'注册'**
+  String get registerButton;
 }
 
 class _AppLocalizationsDelegate

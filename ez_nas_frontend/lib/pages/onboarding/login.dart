@@ -1,3 +1,4 @@
+import 'package:ez_nas_frontend/pages/onboarding/register.dart';
 import 'package:flutter/material.dart';
 import 'package:ez_nas_frontend/components/labeled_text_field.dart';
 import 'package:ez_nas_frontend/components/header.dart';
@@ -122,7 +123,7 @@ class RegisterLinkWidget extends StatelessWidget {
         Text(localizations.loginRegDesc),
         TextButton(
           onPressed: () {
-            // TODO: 注册操作
+            Navigator.push(context, MaterialPageRoute(builder: (context) => const RegisterScreen()));
           },
           child: Text(
             localizations.loginRegButton,
