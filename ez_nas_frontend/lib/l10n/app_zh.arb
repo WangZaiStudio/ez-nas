@@ -1,0 +1,25 @@
+{
+  "@@locale": "zh",
+  "appVersion": "版本号: {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+
+  "loginHeaderTitle":  "欢迎回来",
+  "loginHeaderDesc": "登录以访问您的云端文件",
+  "loginServerAddrTitle": "服务器地址",
+  "loginServerAddrDesc": "输入你的服务器地址",
+  "loginUserNameTitle": "用户名",
+  "loginUserNameDesc": "请输入你注册时所用的用户名",
+  "loginPasswordTitle": "密码",
+  "loginPasswordDesc": "请输入密码",
+  "loginForgetDesc": "忘记密码了？",
+  "loginForgetButton": "重置密码",
+  "loginRegDesc": "没有账号？",
+  "loginRegButton": "注册新账号",
+  "loginButton": "登录"
+}
