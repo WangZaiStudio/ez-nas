@@ -1,3 +1,4 @@
+import 'package:ez_nas_frontend/pages/home/home.dart';
 import 'package:ez_nas_frontend/pages/onboarding/onboarding.dart';
 import 'package:flutter/material.dart';
 import 'package:ez_nas_frontend/l10n/gen/app_localizations.dart';
@@ -14,17 +15,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      localizationsDelegates: const [
+      localizationsDelegates: [
         AppLocalizations.delegate, // 使用自动生成的委托
         GlobalMaterialLocalizations.delegate, // 提供 Material 组件的本地化支持
         GlobalWidgetsLocalizations.delegate,  // 提供 Widgets 的本地化支持
         GlobalCupertinoLocalizations.delegate, // 提供 Cupertino 风格的本地化支持
       ],
-      supportedLocales: const [
+      supportedLocales: [
         Locale('zh'), // 中文
       ],
-      locale: const Locale('zh'), // 设置默认语言，可根据需求动态调整
-      home: OnboardingScreen(),
+      locale: Locale('zh'), // 设置默认语言，可根据需求动态调整
+      // home: OnboardingScreen(),
+      home: HomeScreen(),
     );
   }
 }

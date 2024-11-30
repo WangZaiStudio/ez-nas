@@ -1,3 +1,4 @@
+import 'package:ez_nas_frontend/pages/home/home.dart';
 import 'package:ez_nas_frontend/pages/onboarding/register.dart';
 import 'package:flutter/material.dart';
 import 'package:ez_nas_frontend/components/labeled_text_field.dart';
@@ -148,6 +149,8 @@ class LoginButton extends StatelessWidget {
       child: ElevatedButton(
         onPressed: () {
           // TODO: 登录操作
+          // 当前是测试
+          Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => const HomeScreen()), (router) => false);
         },
         style: ElevatedButton.styleFrom(
           backgroundColor: AppColor.primaryBlueberry,

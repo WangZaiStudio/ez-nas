@@ -109,7 +109,7 @@ class AccountExistWidget extends StatelessWidget {
         TextButton(
           onPressed: () {
             // 跳转到登录界面
-            Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => LoginScreen()), (route) => route.isFirst);
+            Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => const LoginScreen()), (route) => route.isFirst);
           },
           child: Text(
             localizations.registerAccountExistButton,
