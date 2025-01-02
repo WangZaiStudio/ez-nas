@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
-import 'button.dart'; // 确保导入了 ButtonWidget
+import '../../../l10n/gen/app_localizations.dart';
+import 'button.dart';
 
 class CategoryBlock extends StatelessWidget {
   const CategoryBlock({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final localizations = AppLocalizations.of(context)!;
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
       child: Row(
@@ -14,23 +17,21 @@ class CategoryBlock extends StatelessWidget {
           Expanded(
             child: ButtonWidget(
               imagePath: 'assets/images/Images.png',
-              text: '图片',
+              text: localizations.homeCategoryImage,
               onPressed: () {},
             ),
           ),
-          const SizedBox(width: 20),
           Expanded(
             child: ButtonWidget(
               imagePath: 'assets/images/Videos.png',
-              text: '视频',
+              text: localizations.homeCategoryVideo,
               onPressed: () {},
             ),
           ),
-          const SizedBox(width: 20),
           Expanded(
             child: ButtonWidget(
               imagePath: 'assets/images/Documents.png',
-              text: '文档',
+              text: localizations.homeCategoryDocument,
               onPressed: () {},
             ),
           ),

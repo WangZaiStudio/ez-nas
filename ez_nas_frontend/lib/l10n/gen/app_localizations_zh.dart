@@ -82,4 +82,61 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get registerButton => '注册';
+
+  @override
+  String get homeTitle => '你好，';
+
+  @override
+  String get homeSearchHint => '搜索你的文件';
+
+  @override
+  String get homeCategoryImage => '图片';
+
+  @override
+  String get homeCategoryVideo => '视频';
+
+  @override
+  String get homeCategoryDocument => '文档';
+
+  @override
+  String get homeRecentFileTitle => '最近文件';
+
+  @override
+  String get singleFileDownload => '下载';
+
+  @override
+  String get singleFileDelete => '删除';
+
+  @override
+  String get singleFileCancel => '取消';
+
+  @override
+  String get singleFileBookmark => '收藏';
+
+  @override
+  String get searchTitle => '搜索你的文件';
+
+  @override
+  String get searchBackButton => '返回';
+
+  @override
+  String get settingTitle => '设置';
+
+  @override
+  String get settingCategoryDataTitle => '数据';
+
+  @override
+  String get settingDownloadedFiles => '已下载文件';
+
+  @override
+  String get settingSpaceUsage => '空间使用情况';
+
+  @override
+  String get settingCategoryMoreTitle => '更多';
+
+  @override
+  String get settingAboutUs => '关于我们';
+
+  @override
+  String get settingLogout => '退出登录';
 }

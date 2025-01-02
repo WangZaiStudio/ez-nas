@@ -243,6 +243,120 @@ abstract class AppLocalizations {
   /// In zh, this message translates to:
   /// **'注册'**
   String get registerButton;
+
+  /// No description provided for @homeTitle.
+  ///
+  /// In zh, this message translates to:
+  /// **'你好，'**
+  String get homeTitle;
+
+  /// No description provided for @homeSearchHint.
+  ///
+  /// In zh, this message translates to:
+  /// **'搜索你的文件'**
+  String get homeSearchHint;
+
+  /// No description provided for @homeCategoryImage.
+  ///
+  /// In zh, this message translates to:
+  /// **'图片'**
+  String get homeCategoryImage;
+
+  /// No description provided for @homeCategoryVideo.
+  ///
+  /// In zh, this message translates to:
+  /// **'视频'**
+  String get homeCategoryVideo;
+
+  /// No description provided for @homeCategoryDocument.
+  ///
+  /// In zh, this message translates to:
+  /// **'文档'**
+  String get homeCategoryDocument;
+
+  /// No description provided for @homeRecentFileTitle.
+  ///
+  /// In zh, this message translates to:
+  /// **'最近文件'**
+  String get homeRecentFileTitle;
+
+  /// No description provided for @singleFileDownload.
+  ///
+  /// In zh, this message translates to:
+  /// **'下载'**
+  String get singleFileDownload;
+
+  /// No description provided for @singleFileDelete.
+  ///
+  /// In zh, this message translates to:
+  /// **'删除'**
+  String get singleFileDelete;
+
+  /// No description provided for @singleFileCancel.
+  ///
+  /// In zh, this message translates to:
+  /// **'取消'**
+  String get singleFileCancel;
+
+  /// No description provided for @singleFileBookmark.
+  ///
+  /// In zh, this message translates to:
+  /// **'收藏'**
+  String get singleFileBookmark;
+
+  /// No description provided for @searchTitle.
+  ///
+  /// In zh, this message translates to:
+  /// **'搜索你的文件'**
+  String get searchTitle;
+
+  /// No description provided for @searchBackButton.
+  ///
+  /// In zh, this message translates to:
+  /// **'返回'**
+  String get searchBackButton;
+
+  /// No description provided for @settingTitle.
+  ///
+  /// In zh, this message translates to:
+  /// **'设置'**
+  String get settingTitle;
+
+  /// No description provided for @settingCategoryDataTitle.
+  ///
+  /// In zh, this message translates to:
+  /// **'数据'**
+  String get settingCategoryDataTitle;
+
+  /// No description provided for @settingDownloadedFiles.
+  ///
+  /// In zh, this message translates to:
+  /// **'已下载文件'**
+  String get settingDownloadedFiles;
+
+  /// No description provided for @settingSpaceUsage.
+  ///
+  /// In zh, this message translates to:
+  /// **'空间使用情况'**
+  String get settingSpaceUsage;
+
+  /// No description provided for @settingCategoryMoreTitle.
+  ///
+  /// In zh, this message translates to:
+  /// **'更多'**
+  String get settingCategoryMoreTitle;
+
+  /// No description provided for @settingAboutUs.
+  ///
+  /// In zh, this message translates to:
+  /// **'关于我们'**
+  String get settingAboutUs;
+
+  /// No description provided for @settingLogout.
+  ///
+  /// In zh, this message translates to:
+  /// **'退出登录'**
+  String get settingLogout;
 }
 
 class _AppLocalizationsDelegate

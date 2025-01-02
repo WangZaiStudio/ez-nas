@@ -33,5 +33,28 @@
   "registerPasswordDesc": "请输入密码",
   "registerAccountExistDesc": "已经有账号了？",
   "registerAccountExistButton": "前往登录",
-  "registerButton": "注册"
+  "registerButton": "注册",
+
+  "homeTitle": "你好，",
+  "homeSearchHint": "搜索你的文件",
+  "homeCategoryImage": "图片",
+  "homeCategoryVideo": "视频",
+  "homeCategoryDocument": "文档",
+  "homeRecentFileTitle": "最近文件",
+
+  "singleFileDownload": "下载",
+  "singleFileDelete": "删除",
+  "singleFileCancel": "取消",
+  "singleFileBookmark": "收藏",
+
+  "searchTitle": "搜索你的文件",
+  "searchBackButton": "返回",
+
+  "settingTitle": "设置",
+  "settingCategoryDataTitle": "数据",
+  "settingDownloadedFiles": "已下载文件",
+  "settingSpaceUsage": "空间使用情况",
+  "settingCategoryMoreTitle": "更多",
+  "settingAboutUs": "关于我们",
+  "settingLogout": "退出登录"
 }

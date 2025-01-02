@@ -16,30 +16,38 @@ class ButtonWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onPressed,
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.start, // 子组件左对齐
-        children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(borderRadius), // 使用传入的圆角半径
-            child: Image.asset(
-              imagePath,
-              fit: BoxFit.cover,
-            ),
+    return InkWell(
+        onTap: onPressed,
+        splashColor: Colors.grey.withOpacity(0.1),
+        // 设置水波纹颜色
+        highlightColor: Colors.grey.withOpacity(0.05),
+        // 设置点击后的背景高亮颜色
+        borderRadius: BorderRadius.circular(18),
+        // 点击时的圆角边框
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start, // 子组件左对齐
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(borderRadius), // 使用传入的圆角半径
+                child: Image.asset(
+                  imagePath,
+                  fit: BoxFit.cover,
+                ),
+              ),
+              const SizedBox(height: 8), // 图片与文本之间的间距
+              Text(
+                text,
+                textAlign: TextAlign.left, // 文本左对齐
+                style: const TextStyle(
+                  fontSize: 14,
+                  color: Color(0xFF051E56),
+                ),
+              ),
+            ],
           ),
-          const SizedBox(height: 8), // 图片与文本之间的间距
-          Text(
-            text,
-            textAlign: TextAlign.left, // 文本左对齐
-            style: const TextStyle(
-              fontSize: 14,
-              color: Color(0xFF051E56),
-            ),
-          ),
-        ],
-      ),
-    );
+        ));
   }
 }
