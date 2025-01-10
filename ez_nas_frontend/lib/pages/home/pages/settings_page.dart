@@ -37,7 +37,7 @@ class _SettingsPageState extends State<SettingsPage> {
             height: 80.0,
           )),
       body: SingleChildScrollView(
-        child: Padding(
+          child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -123,8 +123,8 @@ class _SettingsPageState extends State<SettingsPage> {
 
             // 退出登录按钮
             Align(
-              alignment: Alignment.center,
-              child: TextButton(
+                alignment: Alignment.center,
+                child: TextButton(
                   style: ButtonStyle(
                     overlayColor: WidgetStateProperty.all(
                       const Color(0xFFFE5454).withOpacity(0.1), // 修改水波纹颜色
@@ -134,13 +134,14 @@ class _SettingsPageState extends State<SettingsPage> {
                     // TODO: 退出登录，退回到onboarding
                   },
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 4.0),
-                    child: Text(
-                      localizations.settingLogout,
-                      style: const TextStyle(color: Color(0xFFFE5454), fontSize: 14),
-                    )),
-                  )
-            )
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 20.0, vertical: 4.0),
+                      child: Text(
+                        localizations.settingLogout,
+                        style: const TextStyle(
+                            color: Color(0xFFFE5454), fontSize: 14),
+                      )),
+                ))
           ],
         ),
       )),
@@ -186,7 +187,7 @@ class SettingOptionWidget extends StatelessWidget {
                     width: 15.0,
                   ),
                   Expanded(
-                    child: Text(
+                      child: Text(
                     title,
                     style: const TextStyle(
                         color: AppColor.textColor,
@@ -228,7 +229,7 @@ class DataSettingsWidget extends StatelessWidget {
     return SizedBox(
         width: double.infinity,
         child: Expanded(
-          child: Column(
+            child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
@@ -238,7 +239,9 @@ class DataSettingsWidget extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   color: AppColor.textColor),
             ),
-            const SizedBox(height: 10,),
+            const SizedBox(
+              height: 10,
+            ),
             SettingOptionWidget(
               title: localizations.settingDownloadedFiles,
               iconPath: "assets/images/icons/downloadedFiles.png",
@@ -278,14 +281,21 @@ class MoreSettingsWidget extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   color: AppColor.textColor),
             ),
-            const SizedBox(height: 10,),
+            const SizedBox(
+              height: 10,
+            ),
             // 选项
-            SettingOptionWidget(title: localizations.settingAboutUs, iconPath: "assets/images/icons/aboutUs.png", onTapFunction: () => {
-              // TODO：打开关于我们的界面
-            }),
+            SettingOptionWidget(
+                title: localizations.settingAboutUs,
+                iconPath: "assets/images/icons/aboutUs.png",
+                onTapFunction: () => {
+                      // TODO：打开关于我们的界面
+                    }),
 
             // 距离下面登出按钮的距离
-            const SizedBox(height: 20,),
+            const SizedBox(
+              height: 20,
+            ),
           ],
         ),
       ),
